@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f2efe8;
+;
 }
 
 header {
@@ -14,7 +15,8 @@ header {
 
 section {
     padding: 40px;
-    background: white;
+    background: #faf8f3;
+;
     margin: 20px;
     border-radius: 8px;
 }
@@ -64,4 +66,33 @@ footer {
 
 .btn:hover {
     background-color: #019875;
+}
+.hero {
+    padding: 120px 60px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin: 0;
+    color: #f5f2ea; /* off white */
+}
+
+.accent {
+    color: #c65d1a; /* burnt orange */
+}
+
+header {
+    background-color: #0f0f0f;
+    color: #f5f2ea;
+}
+
+.btn {
+    margin-top: 40px;
 }
