@@ -6,11 +6,6 @@ body {
 ;
 }
 
-header {
-    background-color: #111;
-    color: white;
-    padding: 40px;
-    text-align: center;
 }
 
 section {
@@ -39,60 +34,45 @@ footer {
     padding: 20px;
     background: #111;
     color: white;
+header {
+    background-color: #111111;
+    color: #f5f2ea;
 }
+
 .hero {
-    padding: 80px 20px;
+    padding: 140px 80px;
+    max-width: 1100px;
 }
 
-.hero h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
+.headline {
+    font-size: 72px;
+    line-height: 1.1;
+    margin: 0 0 30px 0;
+    font-weight: 700;
 }
 
-.hero p {
+.accent {
+    color: #b34700;
+}
+
+.subtext {
     font-size: 20px;
-    margin-bottom: 20px;
+    max-width: 650px;
+    color: #d6d2c8;
+    margin-bottom: 40px;
 }
 
 .btn {
     display: inline-block;
-    padding: 12px 24px;
-    background-color: #00b894;
-    color: white;
+    padding: 14px 28px;
+    background-color: #b34700;
+    color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #019875;
-}
-.hero {
-    padding: 120px 60px;
-    text-align: left;
-}
-
-.hero h1 {
-    font-size: 48px;
-    letter-spacing: 2px;
-    margin-bottom: 40px;
-}
-
-.hero-text h2 {
-    font-size: 48px;
-    margin: 0;
-    color: #f5f2ea; /* off white */
-}
-
-.accent {
-    color: #c65d1a; /* burnt orange */
-}
-
-header {
-    background-color: #0f0f0f;
-    color: #f5f2ea;
-}
-
-.btn {
-    margin-top: 40px;
+    background-color: #8e3800;
 }
