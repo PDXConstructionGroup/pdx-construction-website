@@ -65,12 +65,13 @@ header {
 }
 
 .btn {
+    display: inline-block;
     background-color: #c65d1a;
+    color: white;
     padding: 16px 32px;
     border-radius: 8px;
     font-weight: 600;
-    font-size: 16px;
-
+    text-decoration: none;
 }
 
 .btn:hover {
