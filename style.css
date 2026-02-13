@@ -114,6 +114,34 @@ section {
     font-size: 28px;
     margin-bottom: 20px;
 }
+.info-section {
+    display: flex;
+    gap: 40px;
+    padding: 80px 60px;
+}
+
 .card {
-    background: blue !important;
+    flex: 1;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 26px;
+}
+
+.card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.card li {
+    padding: 10px 0;
+}
+
+.card p {
+    line-height: 1.6;
 }
