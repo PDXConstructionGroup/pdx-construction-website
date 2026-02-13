@@ -1,19 +1,13 @@
 body {
-    background: red !important;
-}
-body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2efe8;
 }
 
-}
-
 section {
     padding: 80px 60px;
     background: #faf8f3;
-;
     margin: 20px;
     border-radius: 0;
 }
