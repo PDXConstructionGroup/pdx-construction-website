@@ -148,3 +148,8 @@ section {
 .card h3 {
   color: #c65d1a; /* burnt orange */
 }
+.icon {
+  color: #000;
+  margin-right: 10px;
+  font-size: 20px;
+}
