@@ -145,3 +145,6 @@ section {
 .card p {
     line-height: 1.6;
 }
+.card h3 {
+  color: #c65d1a; /* burnt orange */
+}
