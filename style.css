@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2efe8;
-;
 }
 
 }
@@ -34,7 +33,10 @@ footer {
     padding: 20px;
     background: #111;
     color: white;
+}
+
 header {
+
     background-color: #111111;
     color: #f5f2ea;
 }
