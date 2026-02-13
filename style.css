@@ -77,3 +77,10 @@ header {
 .btn:hover {
     background-color: #8e3800;
 }
+body {
+    background-color: #f2efe8 !important;
+}
+
+section {
+    background-color: #f4f1ea !important;
+}
