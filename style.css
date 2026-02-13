@@ -146,10 +146,11 @@ section {
     line-height: 1.6;
 }
 .card h3 {
-  color: #c65d1a; /* burnt orange */
+  color: #111; /* black */
 }
 .icon {
-  color: #000;
+  color: #c65d1a; /* burnt orange */
   margin-right: 10px;
   font-size: 20px;
 }
+
