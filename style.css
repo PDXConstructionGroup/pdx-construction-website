@@ -149,8 +149,16 @@ section {
   color: #111; /* black */
 }
 .icon {
-  color: #c65d1a; /* burnt orange */
-  margin-right: 10px;
-  font-size: 20px;
+  color: #c65d1a;   /* burnt orange */
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
 }
 
