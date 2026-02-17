@@ -170,3 +170,56 @@ section {
   margin-bottom: 18px;
   color: #111;
 }
+.process {
+  background: #111;
+  color: #f5f2ea;
+  padding: 110px 60px;
+  text-align: center;
+}
+
+.process h2 {
+  font-size: 44px;
+  margin-bottom: 70px;
+}
+
+.process-steps {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.step {
+  background: #f5f2ea;
+  color: #111;
+  padding: 50px 35px;
+  width: 300px;
+  border-radius: 12px;
+  position: relative;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-8px);
+}
+
+.step-number {
+  font-size: 90px;
+  font-weight: bold;
+  color: #c65d1a;
+  position: absolute;
+  top: -45px;
+  left: 20px;
+  opacity: 0.15;
+}
+
+.step h3 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.step p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
